@@ -1,0 +1,31 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul 
+           li #[a(href="/") Home ]
+           li #[a(href="/") About ]
+           li #[a(href="/") Services] 
+           li #[a(href="/") Class info ] 
+           li #[a(href="/") Contact Us] 
+    section#introSection 
+        div Welcome to the pnkj dance academy 
+        div eat sleep repeat dance 
+    section#missionSection 
+        h2 Our mission 
+        div.card
+          h3 Dance perfection
+        div.card
+          h3 Dance the way you like
+        div.card
+          h3 Expert Teaching
+    section#sponsorsSection 
+        | section for sponsors 
+    footer#footer 
+        | section for footer
+
+    script
+      include ../static/index.js
